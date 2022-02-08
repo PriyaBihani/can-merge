@@ -47,11 +47,17 @@
 		"tape": "^5.4.0"
 	},
 	"dependencies": {
+        // GitHub GraphQL API client from browsers and Node.
 		"@octokit/graphql": "^4.8.0",
+        // Terminal String styling.
 		"chalk": "^4.1.2",
+        // Loads environment variables from the .env file.
 		"dotenv": "^10.0.0",
+        // Retrieves github repo info without relying upon the git command
 		"git-repo-info": "^2.1.1",
+        // Parse .git/confit into a JavaScript object sync or asyn.
 		"parse-git-config": "^3.0.0",
+        // helps you build interactive command line tools, by parsing arguments and generating an elegant user interface.
 		"yargs": "^17.3.1"
 	},
 	"engines": {
