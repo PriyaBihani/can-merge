@@ -2,11 +2,8 @@
 
 "use strict";
 
-// CLI tool.
 const Yargs = require("yargs");
-// CLI tool for the interface
 const chalk = require("chalk");
-// Align server options with http?
 const https = require("https");
 require("dotenv").config();
 
@@ -24,7 +21,6 @@ const getMessage = require("../utils/getMessage");
 const evaluateCommitStatus = require("../utils/evaluateCommitStatus");
 const commitStatus = require("../utils/models/commitStatus");
 
-// process environment for github?
 const { GITHUB_TOKEN, GH_TOKEN, NODE_ENV } = process.env;
 
 const ORIGIN = Object("origin");
